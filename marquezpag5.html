@@ -1,0 +1,164 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>marquezpag5</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/boot
+strap.min.css"integrity="sha384-
+Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9M
+uhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body Bgcolor=#92C5FC>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <li class="nav-item active"></li>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>    
+        <img src="imagenes/kit4.png" WIDTH="100%" ALIGN="MIDDLE">
+        <h1 Align="center">PEDIDOS DE ARTICULOS</h1>
+       <td width=50%><img src="imagenes/tenis4.jpg" WIDTH="17%" ></td> <td height=30%><img src="imagenes/Balon6.jpg" WIDTH="17%"></td> <td><img src="imagenes/rodilleras.jpg" WIDTH="17%"></td> <td><img src="imagenes/2.jpg" width="17%"></td><td><img src="imagenes/7.jpg" width="17%"></td>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <center>
+    <font size="10" color="red"><b>PARA PEDIR AGREGUE SUS DATOS</b></font>
+    </center>
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Correo</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Contrase&ntilde;a</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Direcci&oacute;n</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Direcci&oacute;n 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Estado</label>
+      <select id="inputState" class="form-control">
+        <option selected>Escoje...</option>
+        <option>Baja California</option>
+        <option>Quintana Roo</option>
+        <option>Sonora</option>
+        <option>Tlaxcala</option>
+        <option>Ciudad de México</option>
+        <option>Guadalajara</option>
+        <option>Sinaloa</option>
+        <option>Nuevo León</option>
+        <option>Chiapas</option>
+        <option>Oaxaca</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">C&oacute;digo Postal</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Activar
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar Datos</button>
+</form>
+ </div>
+</div>
+</div>
+<p style="font-weight:bold;" align="center"> Quejas, reclamos, alcaraciones o información extra</p>
+  <p style="font-weight:bold;" align="center">
+  llamar a el numero: 6648198229</p>
+  <p style="font-weight:bold;" align="center">
+  Correo electronico: 02314738@cobachbc.edu.mx</p>
+  <table width=70% align=center border=5>
+      <tr align=center>
+          <td width=10%><a href="index.html">INICIO</a></td>
+          <td width=10%><a href="marquezpag0.html">PRESENTACIÓN</a></td>
+          <td width=10%><a href="marquezpag1.html">ARTICULOS</a></td>
+          <td width=10%><a href="marquezpag2.html">PROMOCIONES</a></td>
+          <td width=10%><a href="marquezpag3.html">TUTORIALES</a></td>
+          <td width=10%><a href="marquezpag4.html">RESEÑAS</a></td>
+          <td width=10%><a href="marquezpag5.html">PEDIDOS</a></td>
+      </tr>
+  </table></br>
+  </body>
+  </html>

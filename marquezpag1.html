@@ -1,0 +1,484 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>marquezpag1</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/boot
+strap.min.css"integrity="sha384-
+Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9M
+uhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body Bgcolor=#92C5FC>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <li class="nav-item active"></li>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>    
+        <img src="imagenes/Banner2.jpg" WIDTH="100%" ALIGN="MIDDLE">
+        <h1 Align="center">ARTICULOS DEPORTIVOS</h1>
+            <h2 align="center">TENIS DE FUTBOL</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td><img src="imagenes/TENIS.jpg" WIDTH="80%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Adidas Calzado de Fútbol Goletto IX Turf Boots Unisex-Adulto</li>
+                <li>Talla 27cm</li>
+                <li>Material de la suela:Sintético</li>
+                <li>Material exterior:Sintético</li>
+                <li>Nivel de resistencia al agua:No resistente al agua</li>
+                <li>País de origen:Camboya</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/tenis2.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+               <li>Zapatos de Fútbol para Hombre Profesionales</li>
+               <li>Material de la suela:Caucho</li>
+               <li>Material exterior:Sintéticas</li>
+               <li>Material interno:Acolchado suave y material transpirable</li>
+               <li>Tipo de cierre:Cordones</li>
+               <li>País de origen:China</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/tenis3.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>adidas Zapatos P5 Unisex-Adulto</li>
+                <li>Material de la suela:Sintético</li>
+                <li>Material exterior:Sintético</li>
+                <li>Exterior sintético suave</li>
+                <li>El 25% de los componentes utilizados para fabricar el exterior están hechos con al menos un 50% de contenido reciclado</li>
+                <li>País de origen:Myanmar</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="imagenes/tenis4.jpg" WIDTH="70%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Tipo de tejido:Sintéticos</li>
+                <li>Tamaño: 10 pulgadas</li>
+                <li>Tipo de suelo sugerido: suelo de pelo corto y abrigo de pies</li>
+                <li>Tipo de cierre:Sin cierre</li>
+                <li>Nivel de resistencia al agua:No resistente al agua</li>
+                <li>Fabricadas en Vietnam</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/tenis5.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Nike Nike Phantom Gx 2 Club Zapatillas para Adulto</li>
+                <li>Material de la suela:Caucho</li>
+                <li>Plantilla acolchada</li>
+                <li>Altura de eje:Alla caviglia</li>
+                <li>Material exterior:Cuero sintético</li>
+                <li>Fabricante:Nike</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/Tenis6.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pirma Tenis Brasil 503 Hombre Turf</li>
+                <li>Tipo de cierre:Cordones</li>
+                <li>Nivel de resistencia al agua:No resistente al agua</li>
+                <li>Corte sintético resistente</li>
+                <li>Ideal para entranamientos y partidos frecuentes</li>
+                <li>País de origen:México</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+       <h2 align="center">BALONES DE FUTBOL</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td><img src="imagenes/Balon1.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Balón de fútbol profesional</li>
+                <li>Material sintético resistente</li>
+                <li>Costuras reforzadas</li>
+                <li>Tamaño oficial número 5</li>
+                <li>Excelente control y precisión</li>
+                <li>Ideal para partidos y entrenamientos</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/Balon2.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+               <li>Balón de fútbol profesional</li>
+               <li>Superficie texturizada</li>
+               <li>Alta durabilidad</li>
+               <li>Diseño aerodinámico</li>
+               <li>Buen rebote</li>
+               <li>Uso en canchas naturales o sintéticas</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/Balon3.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Balón de fútbol profesional</li>
+                <li>Cámara de aire resistente</li>
+                <li>Gran estabilidad en vuelo</li>
+                <li>Fácil control al patear</li>
+                <li>Colores llamativos</li>
+                <li>Apto para ligas amateurs</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="imagenes/Balon4.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Balón de fútbol profesional</li>
+                <li>Costuras a máquina</li>
+                <li>Material impermeable</li>
+                <li>Buena resistencia al desgaste</li>
+                <li>Excelente para entrenamientos</li>
+                <li>Ligero y fácil de controlar</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/Balon5.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Balón de fútbol profesional</li>
+                <li>Diseño moderno</li>
+                <li>Gran agarre al pie</li>
+                <li>Alta precisión en pases</li>
+                <li>Resistente a impactos</li>
+                <li>Uso recreativo o competitivo</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/Balon6.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Balón de fútbol profesional</li>
+                <li>Material de alta calidad</li>
+                <li>Buen equilibrio</li>
+                <li>Gran durabilidad</li>
+                <li>Fácil inflado</li>
+                <li>Ideal para todo tipo de jugadores</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<h2 align="center">RAQUETAS DE TENIS</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td><img src="imagenes/raquetas1.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Raqueta de tenis ligera</li>
+                <li>Estructura de grafito</li>
+                <li>Mango ergonómico</li>
+                <li>Gran control de golpe</li>
+                <li>Ideal para jugadores intermedios</li>
+                <li>Diseño deportivo moderno</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/raquetas2.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+               <li>Raqueta de tenis ligera</li>
+               <li>Cuerda resistente</li>
+               <li>Buen equilibrio</li>
+               <li>Mayor potencia en golpes</li>
+               <li>Fácil manejo</li>
+               <li>Perfecta para entrenamiento</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/raquetas3.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Raqueta de tenis ligera</li>
+                <li>Material de aluminio</li>
+                <li>Alta durabilidad</li>
+                <li>Mejor control de pelota</li>
+                <li>Marco resistente</li>
+                <li>Ideal para principiantes</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="imagenes/raquetas4.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Raqueta de tenis ligera</li>
+                <li>Mango antideslizante</li>
+                <li>Buen balance</li>
+                <li>Golpes precisos</li>
+                <li>Ligera para largas sesiones</li>
+                <li>Excelente control</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/raquetas5.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Raqueta de tenis ligera</li>
+                <li>Estructura reforzada</li>
+                <li>Gran estabilidad</li>
+                <li>Buena potencia</li>
+                <li>Uso recreativo o competitivo</li>
+                <li>Diseño atractivo</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/raquetas6.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Raqueta de tenis ligera</li>
+                <li>Material resistente</li>
+                <li>Excelente agarre</li>
+                <li>Gran precisión</li>
+                <li>Durabilidad garantizada</li>
+                <li>Ideal para partidos</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<h2 align="center">GUANTES DE BOX</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td><img src="imagenes/GB1.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Guantes de boxeo profesionales</li>
+                <li>Acolchado de alta densidad</li>
+                <li>Protección para nudillos</li>
+                <li>Cierre de velcro</li>
+                <li>Material sintético resistente</li>
+                <li>Ideales para entrenamiento</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/GB2.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+               <li>Guantes de boxeo profesionales</li>
+               <li>Gran absorción de impactos</li>
+               <li>Diseño ergonómico</li>
+               <li>Costuras reforzadas</li>
+               <li>Buena ventilación</li>
+               <li>Uso en sparring</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/GB3.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Guantes de boxeo profesionales</li>
+                <li>Material duradero</li>
+                <li>Gran comodidad</li>
+                <li>Interior acolchado</li>
+                <li>Excelente ajuste</li>
+                <li>Protección avanzada</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="imagenes/GB4.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Guantes de boxeo profesionales</li>
+                <li>Alta resistencia</li>
+                <li>Protección extra</li>
+                <li>Buen soporte de muñeca</li>
+                <li>Diseño deportivo</li>
+                <li>Perfectos para gimnasio</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/GB5.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Guantes de boxeo profesionales</li>
+                <li>Interior cómodo</li>
+                <li>Gran durabilidad</li>
+                <li>Buen ajuste</li>
+                <li>Material transpirable</li>
+                <li>Excelente para sparring</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/GB6.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Guantes de boxeo profesionales</li>
+                <li>Alta calidad</li>
+                <li>Gran absorción de golpes</li>
+                <li>Diseño moderno</li>
+                <li>Ligereza al usar</li>
+                <li>Ideales para entrenamiento intenso</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<h2 align="center">BALONES DE BALONCESTO</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td><img src="imagenes/BB1.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pelota de baloncesto oficial</li>
+                <li>Superficie de caucho</li>
+                <li>Buen agarre</li>
+                <li>Tamaño estándar</li>
+                <li>Gran rebote</li>
+                <li>Uso en cancha exterior</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/BB2.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+               <li>Pelota de baloncesto oficial</li>
+               <li>Material resistente</li>
+               <li>Diseño clásico</li>
+               <li>Alta durabilidad</li>
+               <li>Control preciso</li>
+               <li>Ideal para entrenamientos</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/BB3.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pelota de baloncesto oficial</li>
+                <li>Gran adherencia</li>
+                <li>Costuras profundas</li>
+                <li>Excelente rebote</li>
+                <li>Resistente al desgaste</li>
+                <li>Uso recreativo</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><img src="imagenes/BB4.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pelota de baloncesto oficial</li>
+                <li>Material de alta calidad</li>
+                <li>Buena estabilidad</li>
+                <li>Gran control</li>
+                <li>Uso en exteriores</li>
+                <li>Diseño deportivo</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/BB5.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pelota de baloncesto oficial</li>
+                <li>Gran resistencia</li>
+                <li>Superficie antideslizante</li>
+                <li>Excelente rebote</li>
+                <li>Duradera</li>
+                <li>Perfecta para partidos</li>
+            </ul>
+        </td>
+        <td><img src="imagenes/BB6.jpg" WIDTH="100%"></td>
+        <td>Caracteristicas
+            <ul>
+                <li>Pelota de baloncesto oficial</li>
+                <li>Buen agarre</li>
+                <li>Alta durabilidad</li>
+                <li>Gran rendimiento</li>
+                <li>Diseño atractivo</li>
+                <li>Uso recreativo y competitivo</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<div class="container">
+  <div class="row">
+    <video width=75% autoplay muted loop controls>
+        <source src="imagenes/muestra2.mp4" type="video/mp4">
+        <source src="NombredelVideo.webm" type="video/webm">
+        <source src="NombredelVideo.ogv" type="video/ogg">
+        <img src="NombredelVideo.png" alt="Video no soportado">
+</video>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-
+J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1y
+YfoRSJoZ+n" crossorigin="anonymous"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/poppe
+r.min.js" integrity="sha384-
+Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRV
+voxMfooAo" crossorigin="anonymous"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstr
+ap.min.js" integrity="sha384-
+wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl
+3Og8ifwB6" crossorigin="anonymous"></script>
+    <table width=70% align=center border=5>
+    <tr align=center>
+        <td width=10%><a href="index.html">INICIO</a></td>
+        <td width=10%><a href="marquezpag0.html">PRESENTACIÓN</a></td>
+        <td width=10%><a href="marquezpag1.html">ARTICULOS</a></td>
+        <td width=10%><a href="marquezpag2.html">PROMOCIONES</a></td>
+        <td width=10%><a href="marquezpag3.html">TUTORIALES</a></td>
+        <td width=10%><a href="marquezpag4.html">RESEÑAS</a></td>
+        <td width=10%><a href="marquezpag5.html">PEDIDOS</a></td>
+    </tr>
+</table></br>
+    </body>
+</html>

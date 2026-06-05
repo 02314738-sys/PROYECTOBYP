@@ -1,0 +1,188 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>marquezpag2</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/boot
+strap.min.css"integrity="sha384-
+Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9M
+uhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body Bgcolor=#92C5FC>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <li class="nav-item active"></li>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>
+          </nav>    
+        <img src="imagenes/Banner3.2.jpeg" WIDTH="100%" ALIGN="MIDDLE">
+        <h1 Align="center">PROMOCIONES DE LOS ARTICULOS MAS COMPRADOS</h1>
+            <h2 align="center">PROMOCIONES DE ARTICULOS</h2>
+<table width=80% align=center border=3>
+    <tr>
+        <td width=50%><img src="imagenes/TENIS.jpg" WIDTH="80%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Tenis Adidas Goletto IX</li>
+                <li>Precio normal: $1,399</li>
+                <li>Precio promocion: $999</li>
+                <li>20% de descuento</li>
+                <li>Envio gratis</li>
+                <li>Promocion valida esta semana</li>
+            </ul>
+        </td>
+    </tr>
+        <td width=50%><img src="imagenes/PYB.jpg" WIDTH="80%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Combo Futbolista</li>
+                <li>Tenis Adidas Goletto IX</li>
+                <li>Balón profesional incluido</li>
+                <li>Precio normal: $1,999</li>
+                <li>Precio promocion: $1,399</li>
+                <li>Ahorra $600</li>
+            </ul>
+        </td>
+    <tr>
+        <td width=50%><img src="imagenes/BYPP.jpg" WIDTH="80%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Combo Adidas Futbol</li>
+                <li>Tenis Adidas P5</li>
+                <li>Balon profesional</li>
+                <li>Precio normal: $1,900</li>
+                <li>Precio promocion: $1,350</li>
+                <li>Oferta por tiempo limitado</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td width=50%><img src="imagenes/TYP.jpg" WIDTH="60%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Combo Tenis</li>
+                <li>Raqueta de grafito</li>
+                <li>3 pelotas de tenis</li>
+                <li>Precio normal: $1,500</li>
+                <li>Precio promocion: $1,050</li>
+                <li>Incluye funda</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td width=50%><img src="imagenes/BAB.jpg" WIDTH="80%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Combo Cancha</li>
+                <li>Balon de baloncesto</li>
+                <li>Botella deportiva</li>
+                <li>Precio normal: $820</li>
+                <li>Precio promocion: $580</li>
+                <li>Precio exclusivo</li>
+            </ul>
+        </td>
+
+    </tr>
+    <tr>
+        <td width=50%><img src="imagenes/VEN.jpg" WIDTH="80%"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li>Combo Boxeo</li>
+                <li>Guantes profesionales</li>
+                <li>Vendas para manos</li>
+                <li>Precio normal: $1,300</li>
+                <li>Precio promocion: $950</li>
+                <li>Incluye bolsa deportiva</li>
+            </ul>
+        </td>
+    </tr>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-
+J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1y
+YfoRSJoZ+n" crossorigin="anonymous"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/poppe
+r.min.js" integrity="sha384-
+Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRV
+voxMfooAo" crossorigin="anonymous"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstr
+ap.min.js" integrity="sha384-
+wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl
+3Og8ifwB6" crossorigin="anonymous"></script>
+<table width=70% align=center border=5>
+    <tr align=center>
+        <td width=10%><a href="index.html">INICIO</a></td>
+        <td width=10%><a href="marquezpag0.html">PRESENTACIÓN</a></td>
+        <td width=10%><a href="marquezpag1.html">ARTICULOS</a></td>
+        <td width=10%><a href="marquezpag2.html">PROMOCIONES</a></td>
+        <td width=10%><a href="marquezpag3.html">TUTORIALES</a></td>
+        <td width=10%><a href="marquezpag4.html">RESEÑAS</a></td>
+        <td width=10%><a href="marquezpag5.html">PEDIDOS</a></td>
+    </tr>
+</table></br>
+    </body>
+</html>
+   

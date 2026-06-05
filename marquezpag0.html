@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charser="utf-8">
+    <title> PRESENTACIÓN</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <li class="nav-item active"></li>
+        <a class="navbar-brand" href="index.html">INICIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>      
+    <div class="contenedor">
+        <header>
+
+        </header>
+        
+        <main>
+            <div class="perfil">
+                <img src="img/1717.jpeg" alt="">
+            </div>
+            <div class="texto">
+                <h2> INTRODUCCIÓN A MI PAGINA DE VENTAS</h2>
+
+                <p>Bienvenido a mi página de accesorios deportivos. Aquí encontrarás una gran variedad de productos diseñados para mejorar tu rendimiento y acompañarte en cada entrenamiento. Desde balones, pesas y mochilas, hasta guantes y equipo especializado, ofrecemos artículos de buena calidad a precios accesibles. Nuestro objetivo es ayudarte a alcanzar tus metas deportivas con productos confiables y prácticos. Explora nuestro catálogo y encuentra todo lo que necesitas para llevar tu actividad física al siguiente nivel.</p>
+        </main>
+        
+        <style>
+    .contenedor-botones {
+        display: flex;             
+        justify-content: center;  
+        gap: 15px;                  
+        margin-top: 30px;
+        flex-wrap: wrap;           
+    }
+
+    .boton {
+        padding: 12px 20px;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .boton:hover {
+        background-color: darkgreen;
+    }
+</style>
+</head>
+
+<body>
+
+
+</head>
+
+<body>
+
+<div class="contenedor-cajas">
+
+    <div class="caja">
+        <h3>Caja 1</h3>
+         <td width=50%><img src="imagenes/BYPP.jpg" WIDTH="100%"></td>
+        <p>Tenis y balon de la mejor calidas que se puedan encontrar, con un precio accesible para todos</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 2</h3>
+         <td width=50%><img src="imagenes/BB4.jpg" WIDTH="100%"></td>
+        <p>Excelente agarre y rebote uniforme. Ideal para destacar en cada jugada.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 3</h3>
+         <td width=50%><img src="imagenes/GB3.jpg" WIDTH="100%"></td>
+        <p>Protección, comodidad y resistencia para entrenar seguro.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 4</h3>
+         <td width=50%><img src="imagenes/raquetas6.jpg" WIDTH="55%"></td>
+        <p>Ligera y resistente, perfecta para mejorar tu rendimiento.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 5</h3>
+         <td width=50%><img src="imagenes/Balon4.jpg" WIDTH="100%"></td>
+        <p>Gran control y durabilidad para disfrutar cada partido.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 6</h3>
+         <td width=50%><img src="imagenes/mochila.jpg" WIDTH="70%"></td>
+        <p>Espaciosa, resistente y cómoda de llevar. Ideal para transportar tu equipo deportivo, ropa y accesorios.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 7</h3>
+         <td width=50%><img src="imagenes/botella.jpg" height="50%" WIDTH="60%"></td>
+        <p>Resistente y práctica, ideal para mantenerte hidratado todo el día.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 8</h3>
+         <td width=50%><img src="imagenes/pesas.jpg" WIDTH="100%"></td>
+        <p>Perfectas para fortalecer tu cuerpo y mejorar tu condición.</p>
+  
+    </div>
+
+    <div class="caja">
+        <h3>Caja 9</h3>
+         <td width=50%><img src="imagenes/rodilleras.jpg" WIDTH="100%"></td>
+        <p>Ofrecen soporte, protección y comodidad en cada movimiento. Ideales para prevenir lesiones durante tus actividades.</p>
+    </div>
+
+    <div class="caja">
+        <h3>Caja 10</h3>
+         <td width=50%><img src="imagenes/casco.jpg" WIDTH="100%"></td>
+        <p>Ligero, resistente y con ventilación adecuada para mayor comodidad. Diseñado para brindarte seguridad.</p>
+    </div>
+
+</div>
+
+<div class="contenedor-botones">
+  <a href="index.html" class="boton">INICIO</a>
+  <a href="marquezpag1.html" class="boton">ARTICULOS</a>
+  <a href="marquezpag2.html" class="boton">PROMOCIONES</a>
+  <a href="marquezpag3.html" class="boton">TUTORIALES</a>
+  <a href="marquezpag4.html" class="boton">RESEÑAS</a>
+  <a href="marquezpag5.html" class="boton">PEDIDOS</a>
+</div>
+
+       <style>
+  .contenedor-cajas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 1100px;
+      margin: 20px auto;
+      gap: 20px;
+  }
+
+  .caja {
+      width: 180px;
+      height: 300px;
+      background-color: lightblue;
+      text-align: center;
+      border: 2px solid black;
+      padding: 10px; 
+      box-sizing: border-box;
+  }
+</style>
+        <footer>
+            <p >Practica hecha por Marquez Muñoz</p>
+
+        </footer>
+    </div>
+</body>
+</html>

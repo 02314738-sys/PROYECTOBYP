@@ -1,0 +1,123 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>marquezpag3</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/boot
+strap.min.css"integrity="sha384-
+Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9M
+uhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body Bgcolor=#92C5FC>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <li class="nav-item active"></li>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>    
+        <img src="imagenes/banner4.jpg" WIDTH="100%" ALIGN="MIDDLE">
+        <h1 Align="center">TUTORIALES</h1>
+            <font color="#0000FF" size="4" face="tahoma">
+                  <td align=center></td>  <B> TUTORIALES DEL USO DE LOS ACCESORIOS</B>
+          </font>
+          <center>
+                <BR>
+                <font color="#0000FF" size="4" face="Verdana">
+                      <B>BIENVENID@S</B> <BR><br>
+                </font>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TASSTvigTlA?si=nRHE1OkBwJBs5UzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vYnYwINxMl8?si=w1CydCMZtolnwOwF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/qcAjTOpaJPY?si=2y8EA7iAjJUTmELh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </center>
+            <p align="center">
+                  </font>
+            </p>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-
+            J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1y
+            YfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/poppe
+            r.min.js" integrity="sha384-
+            Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRV
+            voxMfooAo" crossorigin="anonymous"></script>
+            <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstr
+            ap.min.js" integrity="sha384-
+            wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl
+            3Og8ifwB6" crossorigin="anonymous"></script>
+            <table width=70% align=center border=5>
+                <tr align=center>
+                    <td width=10%><a href="index.html">INICIO</a></td>
+                    <td width=10%><a href="marquezpag0.html">PRESENTACIÓN</a></td>
+                    <td width=10%><a href="marquezpag1.html">ARTICULOS</a></td>
+                    <td width=10%><a href="marquezpag2.html">PROMOCIONES</a></td>
+                    <td width=10%><a href="marquezpag3.html">TUTORIALES</a></td>
+                    <td width=10%><a href="marquezpag4.html">RESEÑAS</a></td>
+                    <td width=10%><a href="marquezpag5.html">PEDIDOS</a></td>
+                </tr>
+            </table></br>
+    </body>
+</html>
+            

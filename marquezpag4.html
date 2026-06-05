@@ -1,0 +1,179 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>marquezpag4</title>
+        <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/boot
+strap.min.css"integrity="sha384-
+Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9M
+uhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body Bgcolor=#92C5FC>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <li class="nav-item active"></li>
+            <a class="navbar-brand" href="index.html">INICIO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+              <a class="nav-link" href="marquezpag0.html">PRESENTACIÓN<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag1.html">ARTICULOS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag2.html">PROMOCIONES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag3.html">TUTORIALES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag4.html">RESEÑAS<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="marquezpag5.html">PEDIDOS<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" onsubmit="return redirigir(event)">
+  <input 
+    id="busqueda"
+    class="form-control mr-sm-2" 
+    type="search" 
+    placeholder="Buscar"
+    required
+  >
+
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+    BUSCAR
+  </button>
+</form>
+
+<script>
+function redirigir(e) {
+  e.preventDefault();
+
+  let valor = document.getElementById("busqueda").value.toLowerCase();
+
+  if (valor.includes("inicio")) {
+    window.location.href = "index.html";
+  } else if (valor.includes("articulo")) {
+    window.location.href = "marquezpag1.html";
+  } else if (valor.includes("promociones")) {
+    window.location.href = "marquezpag2.html";
+  } else if (valor.includes("tutoriales")) {
+    window.location.href = "marquezpag3.html";
+  } else if (valor.includes("reseñas") || valor.includes("resenas")) {
+    window.location.href = "marquezpag4.html";
+  } else if (valor.includes("pedidos")) {
+    window.location.href = "marquezpag5.html";
+  } else if (valor.includes("presentación")) {
+    window.location.href = "marquezpag0.html";
+    alert("No se encontró la búsqueda");
+  }
+}
+</script>
+        </div>
+      </nav>    
+        <img src="imagenes/banner3.jpg" WIDTH="100%" ALIGN="MIDDLE">
+        <h1 Align="center">RESEÑA DE LOS ARTICULOS</h1>
+            <p align="center" style="font-size:27px; color:#87CEEB;" >
+            En esta sección encontrarás reseñas de diferentes artículos deportivos como tenis, balones,
+            raquetas y guantes. Cada producto incluye una valoración basada en su calidad,
+            durabilidad y experiencia de uso.
+            </p>
+            </td>
+            <table width=80% align=center border=3>
+    <tr>
+        <td width=50%><img src="imagenes/tenis4.jpg" WIDTH="50%" ></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li> Calificación: 4.5 / 5</li>
+                <li> Pros: Muy cómodos y ligeros para jugar</li>
+                <li> Pros: Buen agarre en canchas sintéticas</li>
+                <li> Contras: No son resistentes al agua</li>
+                <li> Opinión: Muy recomendados para entrenamientos y partidos recreativos</li>
+                <li> Valoración general: Excelente relación calidad y rendimiento</li>
+            </ul>
+        </td>
+    </tr>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li> Calificación: 4.6 / 5</li>
+                <li> Pros: Excelente rebote y control del balón</li>
+                <li> Pros: Material resistente para uso frecuente</li>
+                <li> Contras: Puede desgastarse en superficies muy duras</li>
+                <li> Opinión: Ideal para entrenamientos y partidos recreativos</li>
+                <li> Valoración general: Muy buen rendimiento en cancha</li>
+            </ul>
+        <td width=50%><img src="imagenes/Balon6.jpg" WIDTH="50%"></td>
+        </td>
+    <tr>
+        <td width=50%><img src="imagenes/raquetas3.jpg" WIDTH="30%" ALIGN=right></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li> Calificación: 4.4 / 5</li>
+                <li> Pros: Ligera y fácil de manejar</li>
+                <li> Pros: Buen control al golpear la pelota</li>
+                <li> Contras: No es la más potente para jugadores avanzados</li>
+                <li> Opinión: Perfecta para jugadores principiantes o intermedios</li>
+                <li> Valoración general: Excelente para aprender y mejorar técnica</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li> Calificación: 4.7 / 5</li>
+                <li> Pros: Excelente protección para manos y nudillos</li>
+                <li> Pros: Acolchado cómodo y resistente</li>
+                <li> Contras: Pueden sentirse un poco rígidos al inicio</li>
+                <li> Opinión: Muy recomendados para entrenamientos de boxeo</li>
+                <li> Valoración general: Gran seguridad y comodidad</li>
+        <td width=50%><img src="imagenes/GB4.jpg" WIDTH="50% ALIGN=right"></td>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td width=50%><img src="imagenes/BB3.jpg" WIDTH="50%" ALIGN="right"></td>
+        <td style="font-size:25px;">Caracteristicas
+            <ul>
+                <li> Calificación: 4.5 / 5</li>
+                <li> Pros: Muy buen agarre y control</li>
+                <li> Pros: Excelente rebote en cancha</li>
+                <li> Contras: El material puede desgastarse en cemento</li>
+                <li> Opinión: Perfecto para entrenamientos y partidos recreativos</li>
+                <li> Valoración general: Buen desempeño en cualquier cancha</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-
+            J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1y
+            YfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/poppe
+            r.min.js" integrity="sha384-
+            Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRV
+            voxMfooAo" crossorigin="anonymous"></script>
+            <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstr
+            ap.min.js" integrity="sha384-
+            wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl
+            3Og8ifwB6" crossorigin="anonymous"></script>
+            <table width=70% align=center border=5>
+                <tr align=center>
+                    <td width=10%><a href="index.html">INICIO</a></td>
+                    <td width=10%><a href="marquezpag0.html">PRESENTACIÓN</a></td>
+                    <td width=10%><a href="marquezpag1.html">ARTICULOS</a></td>
+                    <td width=10%><a href="marquezpag2.html">PROMOCIONES</a></td>
+                    <td width=10%><a href="marquezpag3.html">TUTORIALES</a></td>
+                    <td width=10%><a href="marquezpag4.html">RESEÑAS</a></td>
+                    <td width=10%><a href="marquezpag5.html">PEDIDOS</a></td>
+                </tr>
+            </table></br>
+    </body>
+</html>
+   
